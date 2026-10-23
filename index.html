@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>双11上新计划｜活动资源布局原型</title>
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>双11上新计划｜活动资源布局原型</h1>
+        <p>当前范围：总开屏、总 Banner、主播海报、总 H5、线下大屏；品牌：BOYA 博雅；产品与主播信息使用占位。</p>
+      </div>
+      <div class="legend" aria-label="活动信息">
+        <span>布局稿</span>
+        <span>11.9—11.11</span>
+        <span>品牌上新 · 限时福利 · 主播专场</span>
+      </div>
+    </header>
+
+    <section class="boards">
+      <div class="column column--left">
+        <article class="board" data-screen-label="01 总开屏">
+          <div class="board-title">
+            <h2>一、总开屏</h2>
+            <span class="tag">站内强曝光</span>
+          </div>
+
+          <button class="phone phone--open" type="button" id="openToH5" aria-label="点击开屏跳转到 H5 布局">
+            <span class="status"><span>12:00</span><span>5G 100%</span></span>
+            <span class="open-screen">
+              <span class="open-top">
+                <span class="open-top-left">
+                  <span class="corner-badge">映客直播</span>
+                  <span class="event-name">双11上新计划</span>
+                </span>
+                <span class="date">11/9-11/11<br>每晚7点</span>
+              </span>
+
+              <span class="hero-message">双星PK赛获奖主播化身上新种草官，<br>限时抽送品牌福利！</span>
+
+              <span class="hero-dish">
+                <span class="product-placeholder product-placeholder--cup">
+                  <span class="placeholder-image">占位图</span>
+                  <small>UOOHA 杯子</small>
+                </span>
+                <span class="product-placeholder">
+                  <span class="placeholder-image">占位图</span>
+                  <small>BOYA S60 桌面款</small>
+                </span>
+                <span class="product-placeholder">
+                  <span class="placeholder-image">占位图</span>
+                  <small>BOYA S60 悬臂款</small>
+                </span>
+              </span>
+
+              <span class="hero-title">双11上新计划</span>
+              <span class="hero-subtitle">种草开箱专场</span>
+              <span class="search-entry"><span>双11上新计划</span><b>映客直播</b></span>
+              <span class="fine-print">活动期间进入直播间参与互动，有机会获得品牌福利</span>
+            </span>
+            <span class="brand-thanks">
+              <span>特别鸣谢</span>
+              <img src="assets/boya-blue.png" alt="BOYA 博雅">
+            </span>
+          </button>
+
+          <div class="note">交互：点击开屏任意区域进入 H5；产品图、主播姓名和具体福利均保留占位。</div>
+        </article>
+      </div>
+
+      <div class="column column--right">
+        <article class="board" data-screen-label="02 总Banner">
+          <div class="board-title">
+            <h2>二、总 Banner</h2>
+            <span class="tag">首页 / 活动页入口</span>
+          </div>
+
+          <div class="banner">
+            <div class="banner-copy">
+              <h3>双11上新计划</h3>
+              <p>种草开箱专场</p>
+            </div>
+            <div class="banner-placeholders" aria-label="产品占位">
+              <div class="banner-placeholder">S60 麦克风</div>
+              <div class="banner-placeholder">UOOHA 杯子</div>
+            </div>
+            <div class="banner-thanks">
+              <span>品牌鸣谢</span>
+              <img src="assets/boya-blue.png" alt="BOYA 博雅">
+            </div>
+            <div class="banner-time">11/9-11/11<br>每晚7点</div>
+          </div>
+          <div class="note">交互：点击 Banner 进入 H5。</div>
+        </article>
+
+        <article class="board board--poster" id="poster" data-screen-label="03 主播海报">
+          <div class="board-title">
+            <h2>三、主播海报</h2>
+            <span class="tag">主播昵称 / 750 × 1334</span>
+          </div>
+
+          <div class="poster-stage">
+            <div class="poster-sheet">
+              <div class="poster-head">
+                <div class="poster-topline">
+                  <img src="assets/inke-logo-dark.png" alt="映客直播">
+                  <span>11/9-11/11<br><b>每晚7点</b></span>
+                </div>
+                <h3>双11上新计划</h3>
+                <p>种草开箱专场</p>
+              </div>
+
+              <div class="poster-scene">
+                <div class="poster-portrait-placeholder">
+                  <span>主播形象位</span>
+                  <small>人物照片待补</small>
+                </div>
+                <div class="poster-anchor-info">
+                  <span>主播昵称</span>
+                  <span>映客号：760905346</span>
+                </div>
+              </div>
+
+              <div class="poster-callout">
+                双星PK赛获奖主播化身上新种草官，限时抽送品牌福利！
+              </div>
+
+              <div class="poster-search"><span>双11上新计划</span><b>映客直播</b></div>
+              <div class="poster-footer">
+                <img src="assets/boya-blue.png" alt="BOYA 博雅">
+              </div>
+            </div>
+
+            <aside class="poster-note-panel">
+              <span>HOST POSTER / TEMPLATE</span>
+              <h3>主播海报模板</h3>
+              <p>参考主播海报的版式结构，不展示人物照片。后续补充主播形象图、主播昵称、映客号与品牌鸣谢即可。</p>
+              <ul>
+                <li>头部：映客直播 logo + 活动日期</li>
+                <li>中部：主播形象位 + 姓名与映客号</li>
+                <li>底部：双11搜索框 + BOYA 博雅鸣谢</li>
+              </ul>
+            </aside>
+          </div>
+          <div class="note">本版不展示人物，仅用主播形象位示意。</div>
+        </article>
+
+        <article class="board board--h5" id="h5Layout" data-screen-label="04 总H5">
+          <div class="board-title">
+            <h2>四、总 H5</h2>
+            <span class="tag">活动承接页</span>
+          </div>
+
+          <div class="h5">
+            <section class="h5-head">
+              <span class="corner-badge h5-live">映客直播</span>
+              <span class="h5-time">11/9-11/11<br><small>每晚7点</small></span>
+              <h3>双11上新计划</h3>
+              <strong>种草开箱专场</strong>
+              <p>双星PK赛获奖主播化身上新种草官，限时抽送品牌福利！</p>
+            </section>
+
+            <div class="h5-tabs" aria-hidden="true">
+              <span>品牌上新</span>
+              <span>主播专场</span>
+              <span>限时福利</span>
+            </div>
+
+            <section class="h5-section">
+              <div class="script-title">新装备抢先看</div>
+              <p class="section-kicker">上新种草清单<br>直播时段：11.9-11.11 / 每晚7点</p>
+
+              <div class="benefits">
+                <div class="benefit benefit--stacked">
+                  <div class="benefit-thumb">产品图占位</div>
+                  <div>
+                    <h5>UOOHA 闺蜜杯</h5>
+                  </div>
+                </div>
+                <div class="benefit benefit--stacked">
+                  <div class="benefit-thumb">产品图占位</div>
+                  <div>
+                    <h5>BOYA S60 桌面款</h5>
+                  </div>
+                </div>
+                <div class="benefit benefit--stacked">
+                  <div class="benefit-thumb">产品图占位</div>
+                  <div>
+                    <h5>BOYA S60 悬臂款</h5>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="h5-section">
+              <h4 class="host-title">获奖主播 · 上新种草官<br><span class="host-subtitle">11.9-11.11 / 每晚7点起<br>接力开麦</span></h4>
+
+              <div class="anchors">
+                <div class="anchor">
+                  <button class="live-btn" type="button">预约</button>
+                  <div class="avatar">A</div>
+                  <div class="anchor-info">
+                    <div class="anchor-time">11月9日　19:00-19:30</div>
+                    <div class="anchor-tags"><span class="anchor-tag">上新种草官</span></div>
+                    <div class="anchor-id">映客号1234567</div>
+                  </div>
+                </div>
+                <div class="anchor">
+                  <button class="live-btn" type="button">预约</button>
+                  <div class="avatar">B</div>
+                  <div class="anchor-info">
+                    <div class="anchor-time">11月9日　19:30-20:00</div>
+                    <div class="anchor-tags"><span class="anchor-tag">上新种草官</span></div>
+                    <div class="anchor-id">映客号1234567</div>
+                  </div>
+                </div>
+                <div class="anchor">
+                  <button class="live-btn" type="button">预约</button>
+                  <div class="avatar">C</div>
+                  <div class="anchor-info">
+                    <div class="anchor-time">11月10日　19:00-19:30</div>
+                    <div class="anchor-tags"><span class="anchor-tag">上新种草官</span></div>
+                    <div class="anchor-id">映客号1234567</div>
+                  </div>
+                </div>
+                <div class="anchor">
+                  <button class="live-btn" type="button">预约</button>
+                  <div class="avatar">D</div>
+                  <div class="anchor-info">
+                    <div class="anchor-time">11月10日　19:30-20:00</div>
+                    <div class="anchor-tags"><span class="anchor-tag">上新种草官</span></div>
+                    <div class="anchor-id">映客号1234567</div>
+                  </div>
+                </div>
+                <div class="anchor">
+                  <button class="live-btn" type="button">预约</button>
+                  <div class="avatar">E</div>
+                  <div class="anchor-info">
+                    <div class="anchor-time">11月11日　19:00-19:30</div>
+                    <div class="anchor-tags"><span class="anchor-tag">上新种草官</span></div>
+                    <div class="anchor-id">映客号1234567</div>
+                  </div>
+                </div>
+                <div class="anchor">
+                  <button class="live-btn" type="button">预约</button>
+                  <div class="avatar">F</div>
+                  <div class="anchor-info">
+                    <div class="anchor-time">11月11日　19:30-20:00</div>
+                    <div class="anchor-tags"><span class="anchor-tag">上新种草官</span></div>
+                    <div class="anchor-id">映客号1234567</div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="h5-thanks">
+              <div class="h5-thanks-bar">
+                <span>特别鸣谢</span>
+                <img src="assets/boya-blue.png" alt="BOYA 博雅">
+              </div>
+              <div class="fine-print">法律允许范围内，本活动一切解释权归映客直播所有</div>
+            </section>
+          </div>
+          <div class="note">交互：产品内容暂不填充；主播入口仅验证预约按钮状态。</div>
+        </article>
+
+        <article class="board" data-screen-label="05 线下大屏">
+          <div class="board-title">
+            <h2>五、线下大屏延展</h2>
+            <span class="tag">仅保留横版点位</span>
+          </div>
+
+          <div class="outdoor-grid outdoor-grid--single">
+            <div class="outdoor-item outdoor-item--horizontal">
+              <div class="outdoor-meta">
+                <b>横版点位</b>
+                4306 × 2464 像素｜注意现场遮挡
+              </div>
+              <div class="outdoor-art outdoor-art--horizontal">
+                <div class="outdoor-tiny">映客直播　双11上新计划</div>
+                <div class="outdoor-copy-wrap">
+                  <div class="outdoor-title">双11上新计划</div>
+                  <div class="outdoor-subtitle">品牌上新 · 限时福利 · 主播专场</div>
+                  <div class="outdoor-copy">主播化身上新种草官<br>11/9-11/11 每晚7点</div>
+                </div>
+                <div class="outdoor-visual">
+                  <span>映客主播海报</span>
+                  <small>主播昵称　映客号：760905346</small>
+                </div>
+                <div class="outdoor-search outdoor-search--bottom"><span>双11上新计划</span><b>映客直播</b></div>
+                <div class="outdoor-occlusion">现场遮挡区<br><small>需按点位确认</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="note">设计说明：保留横版点位，沿用开屏的信息层级，优先保证活动名、时间、品牌与福利位置清晰。</div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="layout.js"></script>
+</body>
+</html>
